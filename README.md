@@ -196,8 +196,7 @@ These are recommendations I'd consider:
 
 Built as part of a self-directed 2026 GRC learning journey, documenting hands-on practice with core GRC deliverables alongside relevant frameworks and certifications (CGRC, CRISC, ISO 27001).
 
-Connect with me: **[Add your LinkedIn URL here]**
-Follow the full learning journey: **[Add your LinkedIn post series link here]**
+
 
 ---
 
