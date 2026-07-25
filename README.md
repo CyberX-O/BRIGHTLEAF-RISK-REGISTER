@@ -212,5 +212,5 @@ Built as part of a self-directed 2026 GRC learning journey, documenting hands-on
 
 This project is released under the [MIT License](LICENSE) — feel free to fork, adapt, and use this template for your own GRC practice projects.
 
-
+---
 
