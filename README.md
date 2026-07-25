@@ -26,6 +26,7 @@
 - [Lessons Learned](#lessons-learned)
 - [Future Improvements](#future-improvements)
 - [About This Project](#about-this-project)
+- [Screenshots](#screenshots)
 
 ---
 
