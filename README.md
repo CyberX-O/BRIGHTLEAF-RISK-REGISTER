@@ -202,9 +202,13 @@ Built as part of a self-directed 2026 GRC learning journey, documenting hands-on
 ## Screenshots
 
 <img width="623" height="266" alt="Risk matrix 1" src="https://github.com/user-attachments/assets/ef2ccc0f-473c-48db-9f54-06764c22b06e" />
+
 <img width="706" height="218" alt="Risk matrix 2" src="https://github.com/user-attachments/assets/9dff4929-1670-4564-8470-a81eb1802347" />
+
 <img width="922" height="211" alt="Risk register 1" src="https://github.com/user-attachments/assets/4a198054-acfc-4e34-b38b-0818eec21b51" />
+
 <img width="923" height="275" alt="Risk register 2" src="https://github.com/user-attachments/assets/86e2fe95-cc44-4179-87bf-097f2757021d" />
+
 
 ---
 
