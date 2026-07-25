@@ -5,7 +5,7 @@
 ![Tool](https://img.shields.io/badge/built%20with-Excel-217346)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-> A full enterprise risk register built from scratch for a mid-sized e-commerce company, covering the complete methodology from risk identification through executive reporting — built as a hands-on demonstration of core GRC skills.
+> A full enterprise risk register I built from scratch for BRIGHTLEAF, a mid-sized e-commerce company, covering the complete methodology from risk identification through executive reporting. I built this as a hands-on demonstration of core GRC skills.
 
 ---
 
@@ -31,15 +31,15 @@
 
 ## Why This Project Exists
 
-Most people learning GRC read about risk registers. I wanted to build one, the way it would actually be built on the job — scoping a business, identifying risk across categories most people forget to check, scoring it defensibly instead of by gut feel, and then translating the whole thing into something a non-technical executive would actually approve budget against.
+Most people learning GRC read about risk registers. I wanted to build one, the way it would actually be built on the job that would involve scoping the business, identifying risk across categories most people forget to check, scoring it defensibly instead of by gut feel, and then translating the whole thing into something a non-technical executive would actually approve budget against.
 
-This repo is the full trail: the workbook, the raw methodology, the reasoning behind every score, and the executive-facing writeup — not just a finished spreadsheet with no explanation behind it.
+This repo is the full trail: the workbook, the raw methodology, the reasoning behind every risk score, and the executive-facing writeup. It is detailed.
 
 ---
 
 ## The Business Case
 
-The register is built around a realistic profile: a mid-sized e-commerce company (~200 employees) selling physical goods online, processing customer payments (bringing PCI DSS into scope), storing customer PII, and depending on third-party vendors for hosting, logistics, and payment processing. That profile isn't incidental — every risk in the register is derived directly from a specific fact about how this kind of business actually operates.
+The register is built around a realistic profile: a mid-sized e-commerce company (~200 employees) selling physical goods online, processing customer payments (bringing PCI DSS into scope), storing customer PII, and depending on third-party vendors for hosting, logistics, and payment processing. Every risk in the register is derived directly from a specific fact about how this kind of business actually operates.
 
 ---
 
@@ -73,14 +73,14 @@ The register was built following a 10-step process:
 
 ## Where the Risks Actually Came From
 
-This is the part most portfolio projects skip, and it's the part I think matters most. Every risk here traces back to one of four real sources, not a brainstorm:
+This is the part most portfolio projects skip, and it's the part I think matters most. I didn't just formulate the risks. I had to understand how to come up with important risks so that nothing salient is left out. Every risk here traces back to one of four real sources:
 
 - **The business model itself** — online payments imply payment fraud risk; a single overseas supplier implies shipping-delay risk; one DevOps engineer with no backup implies key-person risk.
 - **Documented real-world incidents** — the business email compromise risk is modeled directly on a real, publicly reported case that cost a company over $46 million through employee impersonation alone, no hacking involved.
 - **Regulatory obligation** — accepting card payments brings PCI DSS into scope automatically, which is where the compliance risk comes from.
 - **Standard threat catalogs** — cross-checked against common risk categories from frameworks like ISO/IEC 27005 and NIST SP 800-30, so the list isn't limited to whatever happened to come to mind.
 
-I also added a risk after the initial build — a DDoS attack against the checkout system — specifically to show the register is a living document, not a one-time exercise. Full reasoning for that addition, including why the remediation deadline was deliberately set ahead of the holiday shopping season, is in `docs/methodology_notes.md`.
+I also added a risk after the initial build — a DDoS attack against the checkout system. This was specifically to show the register is a living document, not a one-time exercise. Full reasoning for that addition, including why the remediation deadline was deliberately set ahead of the holiday shopping season, is in `docs/methodology_notes.md`.
 
 ---
 
@@ -176,15 +176,15 @@ Part of doing this well is knowing what *doesn't* belong on a GRC risk register,
 
 ## Lessons Learned
 
-- Defining the likelihood and impact scales *before* scoring anything was the single most important step — it's what makes the scores defensible rather than subjective.
-- Separating inherent and residual risk changes the entire conversation with leadership — it shows the value of existing controls instead of just presenting a flat list of dangers.
+- Defining the likelihood and impact scales *before* scoring anything was the single most important step as it's what makes the scores defensible rather than subjective.
+- Separating inherent and residual risk changes the entire conversation with leadership. It shows the value of existing controls instead of just presenting a flat list of dangers.
 - A risk register is only useful if someone owns each line item. Risks without an assigned owner and date tend to just sit there.
-- Knowing what *not* to include is as much a skill as knowing what to include — not every business concern belongs on a GRC risk register.
+- Knowing what *not* to include is as much a skill as knowing what to include. Not every business concern belongs on a GRC risk register.
 
 ---
 
 ## Future Improvements
-
+These are recommendations I'd consider:
 - [ ] Add a live dashboard (Power BI or a simple Python/matplotlib script) visualizing risk distribution by category and level
 - [ ] Expand to a second company in a different industry, to practice adapting the impact scale to a different risk appetite
 - [ ] Add a simple risk trend log to show how residual risk scores change over multiple quarterly reviews
@@ -194,7 +194,7 @@ Part of doing this well is knowing what *doesn't* belong on a GRC risk register,
 
 ## About This Project
 
-Built as part of a self-directed 2026 GRC learning journey — documenting hands-on practice with core GRC deliverables alongside relevant frameworks and certifications (CGRC, CRISC, ISO 27001).
+Built as part of a self-directed 2026 GRC learning journey, documenting hands-on practice with core GRC deliverables alongside relevant frameworks and certifications (CGRC, CRISC, ISO 27001).
 
 Connect with me: **[Add your LinkedIn URL here]**
 Follow the full learning journey: **[Add your LinkedIn post series link here]**
