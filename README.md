@@ -199,12 +199,6 @@ Built as part of a self-directed 2026 GRC learning journey, documenting hands-on
 
 ---
 
-## License
-
-This project is released under the [MIT License](LICENSE) — feel free to fork, adapt, and use this template for your own GRC practice projects.
-
----
-
 ## Screenshots
 
 <img width="623" height="266" alt="Risk matrix 1" src="https://github.com/user-attachments/assets/ef2ccc0f-473c-48db-9f54-06764c22b06e" />
@@ -212,6 +206,11 @@ This project is released under the [MIT License](LICENSE) — feel free to fork,
 <img width="922" height="211" alt="Risk register 1" src="https://github.com/user-attachments/assets/4a198054-acfc-4e34-b38b-0818eec21b51" />
 <img width="923" height="275" alt="Risk register 2" src="https://github.com/user-attachments/assets/86e2fe95-cc44-4179-87bf-097f2757021d" />
 
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE) — feel free to fork, adapt, and use this template for your own GRC practice projects.
 
 
 
